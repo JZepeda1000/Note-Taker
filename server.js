@@ -1,7 +1,7 @@
 var express = require("express");
 var mongojs = require("mongojs");
 var parser = require("body-parser");
-var logger = requie("morgan");
+var logger = require("morgan");
 
 var app = express();
 
