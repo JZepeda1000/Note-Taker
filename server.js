@@ -7,7 +7,7 @@ var app = express();
 
 app.use(logger("dev"));
 app.use(parser.urlencoded({ extended: false }));
-app.use(express.static("public"));
+app.use(express.static("main"));
 
 // Configuring database
 var databaseUrl = "notetaker";
