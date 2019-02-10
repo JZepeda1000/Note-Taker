@@ -126,7 +126,7 @@ app.get("/clearall", function(req, res) {
 
 // Listening on port 3000/$PORT
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
+app.listen(PORT, function() {
     console.log("App running on port ${ PORT }");
 })
 
